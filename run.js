@@ -4,7 +4,7 @@ init()
 
 async function init() {
   console.log('initializing node..');
-  await sleep(1000);
+  await sleep(4000);
   // throw new Error('hiba!');
   process.exit(43);
   console.log('exiting node..');
