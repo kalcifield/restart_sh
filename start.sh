@@ -9,17 +9,12 @@ function gitPull()
 }
 
 
-while :
+while (gitPull) && (npm install)
 do
 	echo Initializing..
 
-	if gitPull && npm install; then
-		echo Starting node server..
-    	node run.js;
-  	else
-  		echo Shutting down..
-  		break;
-  	fi
+	echo Starting node server..
+	node run.js;
 done
 
 
