@@ -1,0 +1,19 @@
+{
+  "name": "one_logic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalcifield/coupon_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalcifield/coupon_express/issues"
+  },
+  "homepage": "https://github.com/kalcifield/coupon_express#readme"
+}
