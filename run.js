@@ -3,8 +3,8 @@ console.log('hello bitch');
 init()
 
 async function init() {
-  console.log('initializing..');
-  await sleep(2000);
+  console.log('initializing node..');
+  await sleep(8000);
   console.log('exiting node..');
 }
 
